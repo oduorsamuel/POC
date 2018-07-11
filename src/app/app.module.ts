@@ -6,12 +6,16 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { SurveyComponent } from './survey.component';
 import { SurveyEditorComponent } from './survey.editor.component';
+import { QuestionnareComponent } from './questionnare/questionnare.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SurveyComponent,
-    SurveyEditorComponent
+    SurveyEditorComponent,
+    QuestionnareComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
