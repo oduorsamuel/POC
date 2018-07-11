@@ -8,6 +8,7 @@ import { SurveyComponent } from './survey.component';
 import { SurveyEditorComponent } from './survey.editor.component';
 import { QuestionnareComponent } from './questionnare/questionnare.component';
 import { LoginComponent } from './login/login.component';
+import { ResponseService } from './response.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { LoginComponent } from './login/login.component';
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [ResponseService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
