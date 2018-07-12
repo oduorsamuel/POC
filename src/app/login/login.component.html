@@ -4,20 +4,22 @@
   <br><br>
   <div class="col-md-4"></div>
   <div class="col-md-4">
-      <div class="card bg-light">
+      <div class="card ">
       <div class="card-body">
-      <h3>POC Patient Feedback</h3>
+      <img src="assets/lg.jpg" class="img-responsive" alt="No logo">
       <br>
       <form>
           <div class="form-group">
             <label for="exampleInputEmail1">Username</label>
-            <input type="email" class="form-control" #username aria-describedby="emailHelp" placeholder="Enter Username">
+            <input type="email" class="form-control input-lg" #username aria-describedby="emailHelp" placeholder="Enter Username">
           </div>
+          <br>
           <div class="form-group">
             <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" #password placeholder="Password">
+            <input type="password" class="form-control input-lg" #password placeholder="Password">
           </div>
-          <button type="submit" class="btn btn-success" (click)="onLogin(username, password)">Submit</button>
+    
+          <button type="submit" style="background-color: #428bca; color:white;" class="btn  btn-lg float-right" (click)="onLogin(username, password)">Submit</button>
           <br><br>
         </form>
       </div>

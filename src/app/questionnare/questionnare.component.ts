@@ -122,4 +122,7 @@ export class QuestionnareComponent{
     ],
     "showProgressBar": "bottom bg-info"
    }
+   onSurveySaved(survey) {
+    this.json = survey;
+  }
 }
